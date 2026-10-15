@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Coding Club - AIUB</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="logo.png" type="image/png">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="home">
+        <h1>AIUB Coding Club</h1>
+        <p>Learn. Code. Create.</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#registration">Registration</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Our Club</h2>
+
+        <img src="logo.png" alt="AIUB Coding Club Logo">
+
+        <p>
+            AIUB Coding Club is a place for students who love
+            programming and technology. We arrange coding sessions,
+            programming contests, workshops and other activities
+            to help students improve their coding skills.
+        </p>
+    </section>
+
+    <!-- Weekly Schedule -->
+    <section id="schedule">
+        <h2>Weekly Schedule</h2>
+
+        <table>
+            <tr>
+                <th colspan="3">Coding Club Weekly Activities</th>
+            </tr>
+
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Activity</th>
+            </tr>
+
+            <tr>
+                <td>Sunday</td>
+                <td>10:00 AM</td>
+                <td>Basic Programming</td>
+            </tr>
+
+            <tr>
+                <td>Tuesday</td>
+                <td>11:00 AM</td>
+                <td>Web Development</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Thursday</td>
+                <td>10:00 AM</td>
+                <td>Problem Solving</td>
+            </tr>
+
+            <tr>
+                <td>12:00 PM</td>
+                <td>Programming Contest</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section id="registration">
+        <h2>Club Registration</h2>
+
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend>Student Information</legend>
+
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password">
+                <br><br>
+
+                <label>Gender:</label><br>
+
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="gender" value="Other">
+                <label for="other">Other</label>
+
+                <br><br>
+
+                <label for="department">Department:</label><br>
+
+                <select id="department" name="department">
+                    <option value="CSE">CSE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="BBA">BBA</option>
+                    <option value="English">English</option>
+                </select>
+
+                <br><br>
+
+                <input type="submit" value="Register">
+                <input type="reset" value="Reset">
+
+            </fieldset>
+
+        </form>
+    </section>
+
+    <!-- University Website -->
+    <footer>
+        <p>
+            Visit our university:
+            <a href="https://www.aiub.edu/" target="_blank">
+                AIUB Official Website
+            </a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
