@@ -1,0 +1,133 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #2a2a2a;
+}
+
+header {
+    background-color: #3d679e;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    margin: 0;
+    padding:20px;
+}
+
+h2 {
+    color: #213f67;
+
+    margin-left: 15px;
+}
+
+
+
+nav {
+    background-color: #3b3b3b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+a:hover {
+    background-color: #8d5e18;
+    color: black;
+}
+
+#home {
+    margin-top: 50px;
+}
+
+.about {
+    width: 80%;
+    padding: 20px;
+    border: 2px solid #1e3c63;
+    margin: 30px auto;
+    background-color: white;
+}
+
+img {
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #244877;
+    color: white;
+}
+
+form {
+    width: 80%;
+    margin: 20px auto;
+}
+
+fieldset {
+    padding: 20px;
+    border: 2px solid #244877;
+    background-color: white;
+}
+
+legend {
+    color: #1e3a5f;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    padding: 8px;
+    width: 250px;
+    max-width: 100%;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3d679e;
+    color: white;
+}
+
+footer a {
+    color: #ebb851;
+}
